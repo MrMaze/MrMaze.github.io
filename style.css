@@ -1,63 +1,88 @@
-body {
-	background-image: url(https://images.unsplash.com/photo-1499561385668-5ebdb06a79bc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=923deb764c09e84be3f0b05317a2116d&auto=format&fit=crop&w=2549&q=80);
-	background-repeat: no-repeat;
+body{
+	background-image: url(101.jpg);
 	background-size: cover;
 	background-position: center;
-	background-color: #EBF2F3;
-
+	background-repeat: no-repeat;
 }
 
-html {
-	height: 100%;
-}
-.navbar.navbar-expand-lg.navbar-light.bg-light {
-	background-color: #FFFFFF;
+img{
+	margin: 1%;
+	height: 40px;
+    width: 60px;
+    transition: all 1s;
 }
 
-#content {
+img:hover {
+	transform: scale(1.4);
+	box-shadow: -1px 0 #DDA0DD, 0 1px #DDA0DD, 1px 0 #DDA0DD, 0 -1px #DDA0DD;
+}
+
+.mr-auto {
+   	margin: auto;
+  
+}
+
+.container {
+	padding: 2%;
 	text-align: center;
-	padding-top: 25%;
-	padding-bottom: 35%;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-				 0px 8px 13px rgba(0,0,0,0.1),
-				 0px 18px 23px rgba(0,0,0,0.1);
-	color: #FFFFFF;
-	height: 100vh;
 }
 
-#content2 {
-	padding-top: 35%;
-	padding-bottom: 2.5%;
+.jumbotron {
+	margin-top: 15%;
+	background-color: rgba(0, 0, 0, 0.11);
+	color: white;
 }
 
-#content3 {
-	text-align: center;
-	padding-top: 2.5%;
+h1 {
 	padding-bottom: 5%;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-				 0px 8px 13px rgba(0,0,0,0.1),
-				 0px 18px 23px rgba(0,0,0,0.1);
-	color: #F2A62E;
+	text-shadow: -1px 0 #DDA0DD, 0 1px #DDA0DD, 1px 0 #DDA0DD, 0 -1px #DDA0DD;
+	/*text-shadow: 0px 4px 3px rgba(76.1, 71, 71),
+				 0px 8px 13px rgba(98.8, 95.7, 95.7),
+				 0px 18px 23px rgba(98.8, 95.7, 95.7);*/
 }
 
-#content4 {
-	padding-top: 2.5%;
-	padding-bottom: 10%;
+hr {
+	background-color: white;
 }
 
-#content5 {
-	color: black;
+.btn-md {
+	margin: 5%;
+	box-shadow: -1px 0 #DDA0DD, 0 1px #DDA0DD, 1px 0 #DDA0DD, 0 -1px #DDA0DD;
+	box-shadow: white;
+	background-color: rgba(0, 0, 0, 0.11);
+	color: white;
+	transition: all 0.8s;
 }
 
-.card {
-	background-color: #FFFFFF; 
+.btn-md:hover {
+	transform: scale(1.2);
+	background-color: rgba(165, 55, 253, 0.60);
+	color: white;
 }
 
-#content5 {
-	background-color: #FFFFFF;
+
+#name {
+	color: white !important;
+}
+#name:hover {
+	color: blue !important;
+}
+.py-3 {
+	color: white;
 }
 
-.footer1 {
-	background-color: pink;
-}
+i {
+	size: 10%;
+	margin-right: 2%;
+	margin-left: 2%;
+	color: white;
+	transition: all 1s;
+ }
 
+ i:hover {
+ 	color: rgba(165, 55, 253, 0.95);
+ 	transform: scale(1.5);
+ }
+footer {
+	
+}
