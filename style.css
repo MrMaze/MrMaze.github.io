@@ -1,3 +1,7 @@
+body, html {
+    height: 100%;
+}
+
 body{
 	background-image: url(101.jpg);
 	background-size: cover;
